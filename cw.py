@@ -26,16 +26,12 @@ if __name__ == "__main__":
 
     if sys.argv[1] == "-c":
         print(byte(sys.argv[2]))
-    
     elif sys.argv[1] == "-l":
         print(lines(sys.argv[2]))
-
     elif sys.argv[1] == "-w":
         print(words(sys.argv[2]))
-    
     elif sys.argv[1] == "-m":
         print(characters(sys.argv[2]))
-    
     elif len(sys.argv) == 2:
         s1 = sys.argv[1]
         print(f"{byte(s1)} {lines(s1)} {words(s1)} {characters(s1)} {s1}")
